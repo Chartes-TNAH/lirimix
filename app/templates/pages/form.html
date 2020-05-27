@@ -1,0 +1,32 @@
+{% extends "container.html" %}
+{% block corps %}
+<h2>Contact us</h2>
+<p>You have a question ? You want to propose a song ? Tá an cheist agat ? An bhfuil an t-amhrán uait ?</p>
+<form  action="mailto:jean-luc.mirepoix@chartes.psl.eu" method=”POST” enctype=”multipart/form-data”> 
+
+    <div class="border border-success rounded"s width="120" height="120">
+    <div>
+        <label for="name">Name/Ainm :</label>
+        <!--special characters are escaped for safety -->
+        <input type="text" id="name" name="user_name" onkeyup="this.value = this.value.replace(/[&*<>$]/g, '')" >
+    </div>
+    <br/>
+    <div>
+        <label for="mail">Email/R-phost :</label>
+        <input type="email" id="mail" name="user_mail" placeholder="This field must not be empty/Táthar ar aon intinn gur gá rud éigin a rá" required>
+    </div>
+    <br/>
+    <div>
+        <label for="msg">Message/Teachtaireacht :</label>
+        <!--special characters are escaped for safety -->
+        <textarea id="msg" name="user_message" placeholder="This field must not be empty/Táthar ar aon intinn gur gá rud éigin a rá" onkeyup="this.value = this.value.replace(/[&*<>$]/g, '')" required></textarea>
+    </div>
+        <br/>
+     <div class="button">
+        <button type="submit">Send</button>
+
+    </div>
+</div>
+ 
+</form>
+{% endblock %}

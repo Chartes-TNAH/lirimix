@@ -1,0 +1,10 @@
+{% extends "container.html" %}
+{% block corps %}
+	<div>
+		<h2>Authors Index</h2>
+		<div>
+			<!-- "safe mod" is required-->
+			{{template_flask1|safe}}
+		</div>
+	</div>
+{% endblock %}

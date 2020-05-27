@@ -1,0 +1,15 @@
+{% extends "container.html" %}
+{% block corps %}
+	<div>
+		<h2>Performances</h2>
+		<br/>
+		<span>Listen to the lyrics !</span>
+		<span>Éisteacht leis an gceol !</span>
+		<br/>
+		<div>
+			<!-- "safe mod" is required-->
+			{{template_flask1|safe}}
+
+		</div>
+	</div>
+{% endblock %}

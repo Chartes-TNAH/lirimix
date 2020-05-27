@@ -1,0 +1,39 @@
+{% extends "container.html" %}
+{% block corps %}
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<br />
+<h2 class="text-center">Welcome on Lirimix</h2>
+<ul>
+<p><button onclick="Gaeilge()">Gaeilge</button></p>
+<div id="myDIV" text align="text-center">
+<p>Lirimix is a web application displaying lirycs (in irish: "liricí") of Irish songs from the War of Independance era, 
+going from the Easter Uprising in 1916 to the Civil War in 1923.</p></div>
+<br/>
+<div class="inline-block">
+<img src="../static/img/todisplay1.jpg" alt="" class="img-thumbnail" width="350" height="450"/>
+<img src="../static/img/todisplay2.jpg" alt="" class="img-thumbnail" width="350" height="450"/>
+<img src="../static/img/todisplay3.jpg" alt="" class="img-thumbnail" width="350" height="450"/>
+</ul>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<script>
+function Gaeilge() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Lirimix is a web application displaying lirycs (in irish: 'liricí') of Irish songs from the War of Independance era, going from the Easter Uprising in 1916 to the Civil War in 1923.") {
+    x.innerHTML = "Is feidhmchlár gréasáin é Lirimix a thaispeánann liricí d’amhráin Ghaeilge ó ré Chogadh na Saoirse, ag dul ó Éirí Amach na Cásca i 1916 go dtí an Cogadh Cathartha i 1923.";
+  } else {
+    x.innerHTML = "Lirimix is a web application displaying lirycs (in irish: 'liricí') of Irish songs from the War of Independance era, going from the Easter Uprising in 1916 to the Civil War in 1923.";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+</html>
+{% endblock %}

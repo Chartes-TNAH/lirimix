@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lirimix Corpus</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Lirimix is a web application diplaying a TEI corpus encoded by Jean-Luc Mirepoix
+                    for the python course in the frame of the Master TNAH at the Ecole Nationale des
+                    Chartes</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This corpus gather lyrics (in irish: "liricí") of Irish songs from the War of
+                    Independance period, going from the Easter Uprising of 1916 to the Civil War
+                    (1922-1923).</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <!-- An index of the authors -->
+            <particDesc>
+                <listPerson>
+                    <person idf="102">
+                        <persName xml:lang="ga">
+                            <forename>Pádraig Anraí Mac Piarais</forename>
+                            <note>Nasc le Vicipéid
+                                    <link>https://ga.wikipedia.org/wiki/P%C3%A1draig_Mac_Piarais</link></note>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Patrick Henry Pearse </forename>
+                            <note>Wikipedia Link
+                                    <link>https://en.wikipedia.org/wiki/Patrick_Pearse</link></note>
+                        </persName>
+                        <listBibl>
+                            <bibl n='1'>Óró, sé do bheatha 'bhaile</bibl>
+                            <bibl n='4'>Amhrán na bhFiann</bibl>
+                        </listBibl>
+                    </person>
+                    <person idf="101">
+                        <persName xml:lang="ga">
+                            <forename>Cathal Ó Néill </forename>
+                            <note>Lúb ar lár</note>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Charles O'Neill </forename>
+                            <note>Wikipedia Link
+                                    <link>https://en.wikipedia.org/wiki/Foggy_Dew_(Irish_ballad)</link></note>
+                        </persName>
+                        <listBibl>
+                            <bibl n='2'>The Foggy Dew</bibl>
+                        </listBibl>
+                    </person>
+                    <person idf="103">
+                        <persName xml:lang="ga">
+                            <forename>Peadar Ó Cearnaígh </forename>
+                            <note>Nasc le Vicipéid
+                                    <link>https://ga.wikipedia.org/wiki/Peadar_%C3%93_Cearnaigh</link></note>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Peadar Kearney </forename>
+                            <note>Wikipedia Link
+                                    <link>https://en.wikipedia.org/wiki/Peadar_Kearney</link></note>
+                        </persName>
+                        <listBibl>
+                            <bibl n='3'>Down by the Glenside</bibl>
+                        </listBibl>
+                    </person>
+                    <person idf="104">
+                        <persName xml:lang="ga">
+                            <forename>Patrick "Paddy" Heeney </forename>
+                            <note>Lúb ar lár</note>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Patrick "Paddy" Heeney </forename>
+                            <note>Wikipedia Link
+                                    <link>https://en.wikipedia.org/wiki/Patrick_Heeney</link></note>
+                        </persName>
+                        <listBibl>
+                            <bibl n='4'>Amhrán na bhFiann</bibl>
+                        </listBibl>
+                    </person>
+                    <person idf="105">
+                        <persName xml:lang="ga">
+                            <forename>Liam 'Coinneach' Ó Rinn </forename>
+                            <note>Lúb ar lár</note>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>William 'Coinneach' J. Ring </forename>
+                            <note>Wikipedia Link
+                                    <link>https://en.wikipedia.org/wiki/Liam_%C3%93_Rinn</link></note>
+                        </persName>
+                        <listBibl>
+                            <bibl n='4'>Amhrán na bhFiann</bibl>
+                        </listBibl>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <TEI n="1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Óró, sé do bheatha 'bhaile</title>
+                    <title type="alternative">Dord na bhFiann</title>
+                    <title type="alternative">An Dord Féinne</title>
+                    <author corresp="102"><name xml:lang='en'>Patrick Henry Pearse</name><name xml:lang='ga'>Pádraig Anraí Mac Piarais</name></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Texte édité dans le cadre d'un devoir par Jean-Luc Mirepoix, master 2 TNAH à
+                        l'Ecole nationale des Chartes</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <recordingStmt>
+                        <recording dur="PT03M20S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Derek Warfield</name>
+                                <name>The Young Wolfe Tones</name>
+                            </respStmt>
+                            <media url="https://www.youtube.com/watch?v=kmX56cTAfio"
+                                mimeType="video/mp4">
+                                <desc>A youtube video uploaded by the Young Wolfe Tones</desc>
+                            </media>
+                            <date when="2011-10-27">27/10/2011</date>
+                        </recording>
+                        <recording dur="PT06M12S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Seo Linn</name>
+                            </respStmt>
+                            <media url="https://youtu.be/bzXswoAUi0U" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded by the Conradh na Gaeilge (Gaelic
+                                    League)</desc>
+                            </media>
+                            <date when="2016-02-25">25/02/2016</date>
+                        </recording>
+                        <recording dur="PT02M32S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Denis Cox</name>
+                            </respStmt>
+                            <media
+                                url="https://www.itma.ie/digital-library/sound/oro-se-do-bheatha-bhaile-cox"
+                                mimeType="audio/mp3">
+                                <desc>78rpm audio disc hold by the Irish Traditional Music
+                                    Archive/Taisce Cheol Dúchais Éireann under the reference
+                                    16963-SE</desc>
+                            </media>
+                            <date from="1930" to="1939">1930's, precise date unknown</date>
+                        </recording>
+                    </recordingStmt>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <div xml:lang="en">
+                    <p>Like many folk songs, the origins of this song are obscure, but several
+                        different uses of the tune and chorus can be identified. In 1884 Mr. Francis
+                        Hogan of Brenormore, near Carrick-on-Suir, then “well over seventy years of
+                        age”, reported that “this song used to be played at the ‘Hauling Home,’ or
+                        the bringing home of a wife”. The "hauling home" was a ceremony that took
+                        place a month after a wedding when a bride was brought to live in her new
+                        husband's home. This version consists only of the chorus. Énrí Ó Muirġeasa
+                        also records a similar refrain in 1915 from the Barony of Farney, “but the
+                        song to which it belonged was lost before my time”. There is no mention of
+                        “hauling home” and the line that P. W. Joyce gives as thá tu maith le rátha
+                        (“’tis you are happy with prosperity [in store for you]”) is instead Tá tú
+                        amuiġ le ráiṫċe (“You’ve been gone three months”). This song has also been
+                        associated with the Jacobite cause as the traditional version mentions
+                        Séarlas Óg ("Young Charles" in Irish), referring to Charles Edward Louis
+                        John Casimir Sylvester Severino Maria Stuart (Bonnie Prince Charlie) and
+                        dating the song to the third Jacobite rising of 1745-6. The tune appears as
+                        number 1425 in George Petrie's The Complete Collection of Irish Music (1855)
+                        under the title Ó ro! ’sé do ḃeaṫa a ḃaile (modern script: Ó ro! ’sé do
+                        bheatha a bhaile) and is marked “Ancient clan march.” It can also be found
+                        at number 983 (also marked “Ancient Clan March”) and as a fragment at number
+                        1056, titled Welcome home Prince Charley. In the early 20th century it
+                        received new verses by the nationalist poet Padraig Pearse and was often
+                        sung by members of the Irish Volunteers during the Easter Rising. It was
+                        also sung as a fast march during the Irish War of Independence. Since 1916
+                        it has also been known under various other titles, notably Dord na bhFiann
+                        (Call of the Fighters) or An Dord Féinne. The latter title is associated
+                        with Pearse in particular. This version features the pirate or "Great Sea
+                        Warrior" Gráinne Ní Mháille (Grace O'Malley), a formidable power on the west
+                        coast of Ireland in the late 16th century. Pearse shows his knowledge of the
+                        Jacobite version in the way he adapts it to the new independence cause. He
+                        emphasises the Irishness of the fighters by substituting native Gráinne for
+                        foreign Prince Charlie and changing Béidh siad leis-sean Franncaigh is
+                        Spáinnigh (“They’ll be with him, French and Spanish”) to Gaeil féin 's ní
+                        Francaigh ná Spáinnigh (“Gaels they, and neither French nor Spaniard”). </p>
+                </div>
+                <div xml:lang="ga">
+                    <p>Amhrán Éireannach is ea Oró, 'Sé do Bheatha 'Bhaile. Tá cáil air mar amhrán
+                        reibiliúnach. Tháinig an t-amhrán ó am an dara éirí amach Seacaibíteach. Ba
+                        é 'Bonnie Prince Charles' an Séarlas Óg san amhrán Scríobh Pádraig Mac
+                        Piarais véarsaí breise don amhrán. </p>
+                </div>
+            </front>
+            <body>
+                <div type="song" xml:lang="ga">
+                    <lg n="1" type="verse">
+                        <l n="1">’Sé do bheatha, a bhean ba léanmhar</l>
+                        <l n="2">do bé ár gcreach tú bheith i ngéibhinn</l>
+                        <l n="3">do dhúiche bhreá i seilbh meirleach</l>
+                        <l n="4">'s tú díolta leis na Gallaibh.</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="5">Óró, sé do bheatha bhaile</l>
+                        <l n="6">óró, sé do bheatha bhaile</l>
+                        <l n="7">óró, sé do bheatha bhaile</l>
+                        <l n="8">anois ar theacht an tsamhraidh.</l>
+                    </lg>
+                    <lg n="2" type="verse">
+                        <l n="9">Tá Gráinne Mhaol ag teacht thar sáile</l>
+                        <l n="10">óglaigh armtha léi mar gharda,</l>
+                        <l n="11">Gaeil iad féin is ní Francaigh ná Spáinnigh</l>
+                        <l n="12">'s cuirfidh siad ruaig ar Ghallaibh.</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="13">Óró, sé do bheatha bhaile</l>
+                        <l n="14">óró, sé do bheatha bhaile</l>
+                        <l n="15">óró, sé do bheatha bhaile</l>
+                        <l n="16">anois ar theacht an tsamhraidh.</l>
+                    </lg>
+                    <lg n="3" type="verse">
+                        <l n="17">A bhuí le Rí na bhFeart go bhfeiceam</l>
+                        <l n="18">muna mbeam beo ina dhiaidh ach seachtain</l>
+                        <l n="19">Gráinne Mhaol agus míle gaiscíoch</l>
+                        <l n="20">ag fógairt fáin ar Ghallaibh.</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="21">Óró, sé do bheatha bhaile</l>
+                        <l n="22">óró, sé do bheatha bhaile</l>
+                        <l n="23">óró, sé do bheatha bhaile</l>
+                        <l n="24">anois ar theacht an tsamhraidh.</l>
+                    </lg>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI n="2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">The Foggy Dew</title>
+                    <title type="alternative">Down the Glen</title>
+                    <author corresp="101"><name xml:lang='en'>Charles O'Neill</name><name xml:lang='ga'>Cathal Ó Néill</name></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Texte édité dans le cadre d'un devoir par Jean-Luc Mirepoix, master 2 TNAH à
+                        l'Ecole nationale des Chartes</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <recordingStmt>
+                        <recording dur="PT03M00S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Jim Dwyer</name>
+                            </respStmt>
+                            <media
+                                url="https://www.itma.ie/digital-library/sound/the-foggy-dew-jim-dwyer"
+                                mimeType="audio/mp3">
+                                <desc>78rpm audio disc hold by the Irish Traditional Music
+                                    Archive/Taisce Cheol Dúchais Éireann under the reference
+                                    235071</desc>
+                            </media>
+                            <date when="1938-07-12">12/07/1938</date>
+                        </recording>
+                        <recording dur="PT03M23S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>The Dubliners</name>
+                            </respStmt>
+                            <media url="https://youtu.be/r8Gq1XAdHJM" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded on the official youtube chanel of the
+                                    Dubliners</desc>
+                            </media>
+                            <date when="1967">1967</date>
+                        </recording>
+                        <recording dur="PT05M33S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Daoirí Farrell</name>
+                            </respStmt>
+                            <media url="https://youtu.be/2lw1T-M_FNc" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded on the youtube chanel of the irish
+                                    public service channel RTÉ One</desc>
+                            </media>
+                            <date when="2019-04-26">26/04/2019</date>
+                        </recording>
+                    </recordingStmt>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <div xml:lang="en">
+                    <p>“Foggy Dew” was written by Fr (later in life) Canon Charles O’Neill from
+                        Portglenone, County Antrim (1887–1963), a parish priest of Kilcoo and later
+                        Newcastle, County Down, sometime after 1919 when he was a curate at St.
+                        Peter's Cathedral, Belfast. The music is from a manuscript that was in
+                        possession of Kathleen Dallat, sister of Michael Dallat of Ballycastle. That
+                        manuscript gives Carl Hardebeck as the arranger. It is the same air as the
+                        traditional love song The Moorlough Shore. "The Foggy Dew" is a product of
+                        the political situation in Ireland in the aftermath of the Easter Rising and
+                        World War I. Approximately 210,000 Irishmen joined up and served in the
+                        British forces during the war. This created mixed feelings for many Irish
+                        people, particularly for those with nationalist sympathies. While they
+                        broadly supported the British war effort, they also felt that one of the
+                        moral justifications for the war, "the freedom of small nations" like
+                        Belgium and Serbia, should also be applied to Ireland, which at that time
+                        was under British rule. The 1915 Gallipoli slaughter of the young and mainly
+                        middle-class Irishmen who had joined up in response to John Redmond's call
+                        turned many people against the war. In 1916, Irish patriots led by James
+                        Connolly and Patrick Pearse, taking advantage of Britain being occupied by
+                        World War I, seized some of the major buildings in Dublin including the
+                        General Post Office, while others came out in Ashbourne and Galway in the
+                        Easter Rising. The brutal response to the Rising, and the execution of its
+                        leaders that followed, marked a turning point for many Irish people. The
+                        public revulsion at the executions added to the growing sense of alienation
+                        from the British Government. Canon O'Neill reflected this alienation when he
+                        wrote The Foggy Dew commemorating the few hundred brave men who had risen
+                        out against what was then the most powerful empire in the world. In 1919, he
+                        attended the first sitting of the new Irish Parliament, Dáil. The names of
+                        the elected members were called out, but many were absent. Their names were
+                        answered by the reply faoi ghlas ag na Gaill – "locked up by the foreigner".
+                        These events had a profound effect on O'Neill and some time after this he
+                        wrote The Foggy Dew telling the story of the Easter Rising and reflecting
+                        the thoughts of many Irish people at the time who now believed that the
+                        Irishmen who fought for Britain during the war should have stayed home and
+                        fought for Irish independence instead. O'Neill sums up this feeling in the
+                        line ‘Twas far better to die ‘neath an Irish sky, Than at Suvla or Sud el
+                        Bar. </p>
+                </div>
+                <div xml:lang="ga">
+                    <p>Nil é féin aistrithe fós.</p>
+                </div>
+            </front>
+            <body>
+                <div type="song" xml:lang="en">
+                    <lg n="1" type="verse">
+                        <l n="1">As down the glen one Easter morn to a city fair rode I</l>
+                        <l n="2">There Armed lines of marching men in squadrons passed me by</l>
+                        <l n="3">No pipe did hum nor battle drum did sound its loud tattoo</l>
+                        <l n="4">But the Angelus Bell o'er the Liffey's swell rang out through the
+                            foggy dew</l>
+                    </lg>
+                    <lg n="2" type="verse">
+                        <l n="5">Right proudly high over Dublin Town they hung out the flag of
+                            war</l>
+                        <l n="6">'Twas better to die 'neath an Irish sky than at Suvla or
+                            Sud-El-Bar</l>
+                        <l n="7">And from the plains of Royal Meath strong men came hurrying
+                            through</l>
+                        <l n="8">While Britannia's Huns, with their long range guns sailed in
+                            through the foggy dew</l>
+                    </lg>
+                    <lg n="3" type="verse">
+                        <l n="9">'Twas England bade our Wild Geese go, that small nations might be
+                            free;</l>
+                        <l n="10">Their lonely graves are by Suvla's waves or the fringe of the
+                            great North Sea.</l>
+                        <l n="11">Oh, had they died by Pearse's side or fought with Cathal
+                            Brugha</l>
+                        <l n="12">Their graves we'd keep where the Fenians sleep, 'neath the shroud
+                            of the foggy dew.</l>
+                    </lg>
+                    <lg n="4" type="verse">
+                        <l n="13">Oh the night fell black, and the rifles' crack made Perfidious
+                            Albion reel</l>
+                        <l n="14">In the leaden rain, seven tongues of flame did shine o'er the
+                            lines of steel</l>
+                        <l n="15">By each shining blade a prayer was said, that to Ireland her sons
+                            be true</l>
+                        <l n="16">But when morning broke, still the war flag shook out its folds in
+                            the foggy dew</l>
+                    </lg>
+                    <lg n="5" type="verse">
+                        <l n="17">Oh the bravest fell, and the Requiem bell rang mournfully and
+                            clear</l>
+                        <l n="18">For those who died that Easter tide in the spring time of the
+                            year</l>
+                        <l n="19">And the world did gaze, in deep amaze, at those fearless men, but
+                            few,</l>
+                        <l n="20">Who bore the fight that freedom's light might shine through the
+                            foggy dew</l>
+                    </lg>
+                    <lg n="6" type="verse">
+                        <l n="21">As back through the glen I rode again and my heart with grief was
+                            sore</l>
+                        <l n="22">For I parted then with valiant men whom I never shall see more</l>
+                        <l n="23">But to and fro in my dreams I go and I kneel and pray for you,</l>
+                        <l n="24">For slavery fled, O glorious dead, when you fell in the foggy dew.
+                        </l>
+                    </lg>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI n="3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Down by the Glenside</title>
+                    <title type="alternative">The Bold Fenian Men</title>
+                    <author corresp="103"><name xml:lang='en'>Peadar Kearney</name><name xml:lang='ga'>Peadar Ó Cearnaígh</name></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Texte édité dans le cadre d'un devoir par Jean-Luc Mirepoix, master 2 TNAH à
+                        l'Ecole nationale des Chartes</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <recordingStmt>
+                        <recording dur="PT02M54S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Delia Murphy</name>
+                            </respStmt>
+                            <media
+                                url="https://www.itma.ie/digital-library/sound/down-by-the-glenside-delia-murphy"
+                                mimeType="audio/mp3">
+                                <desc>78rpm audio disc hold by the Irish Traditional Music
+                                    Archive/Taisce Cheol Dúchais Éireann under the reference
+                                    235043</desc>
+                            </media>
+                            <date when="1939">1939</date>
+                        </recording>
+                        <recording dur="PT03M23S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>The Dubliners</name>
+                            </respStmt>
+                            <media url="https://youtu.be/eNBAoWULT_8" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded on the official youtube chanel of the
+                                    Dubliners</desc>
+                            </media>
+                            <date when="1977">1977</date>
+                        </recording>
+                        <recording dur="PT04M04S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Richard Dyer-Bennett</name>
+                            </respStmt>
+                            <media url="https://youtu.be/vMfYFrDT_-M" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded provided by Smithsonian Folkways
+                                    Recordings</desc>
+                            </media>
+                            <date when="1955">1955</date>
+                        </recording>
+                    </recordingStmt>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <div xml:lang="en">
+                    <p> "Down by the Glenside (The Bold Fenian Men)" is an Irish rebel song written
+                        by Peadar Kearney, an Irish Republican and composer of numerous rebel songs,
+                        including "The Soldier's Song" ("Amhrán na bhFiann"), now the Irish National
+                        Anthem and "The Tri-coloured Ribbon". Kearney was a member of the Irish
+                        Republican Brotherhood, popularly known as the Fenians. He wrote the song
+                        about the time of the 1916 Rising. It evokes the memory of the
+                        freedom-fighters of the previous generation (strong, manly forms...eyes with
+                        hope gleaming), as recalled by an old woman down by the glenside. It is
+                        effectively a call to arms for a generation of Irishmen accustomed to
+                        political nationalism. Three verses to this song were sung by Ken Curtis and
+                        The Sons of the Pioneers in the 1950 John Ford movie Rio Grande. Richard
+                        Dyer-Bennet recorded the song on his first self produced LP Richard
+                        Dyer-Bennet 1, (1955). The song became popular again in the 1960s, when it
+                        was recorded by The Clancy Brothers. It has since been recorded by numerous
+                        artists, including The Dubliners, Cherish The Ladies, Omnia, Screaming
+                        Orphans, Jim McCann, Harry O'Donoghue, and The Wolfe Tones. The song is also
+                        sung in the first episode of the BBC series Days of Hope, written by Jim
+                        Allen and directed by Ken Loach. An Irish barmaid is forced to sing after
+                        being sexually harassed by British soldiers and impresses them with her
+                        song. </p>
+                </div>
+                <div xml:lang="ga">
+                    <p>Nil é féin aistrithe fós.</p>
+                </div>
+            </front>
+            <body>
+                <div type="song" xml:lang="en">
+                    <lg n="1" type="verse">
+                        <l n="1">'Twas down by the glenside, I met an old woman</l>
+                        <l n="2">A-plucking young nettles, she ne’er saw me coming</l>
+                        <l n="3">I listened a while to the song she was humming</l>
+                        <l n="4">Glory O, Glory O, to the bold Fenian men</l>
+
+                    </lg>
+                    <lg n="2" type="verse">
+                        <l n="5">'Tis fifty long years since I saw the moon beaming</l>
+                        <l n="6">On strong manly forms, on eyes with hope gleaming</l>
+                        <l n="7">I see them again, sure, in all my sad dreaming</l>
+                        <l n="8">Glory O, Glory O, to the bold Fenian men</l>
+
+                    </lg>
+                    <lg n="3" type="verse">
+                        <l n="9">When I was a young girl, their marching and drilling</l>
+                        <l n="10">Awoke in the glenside sounds awesome and thrilling</l>
+                        <l n="11">They loved dear old Ireland, to die they were willing</l>
+                        <l n="12">Glory O, Glory O, to the bold Fenian men</l>
+
+                    </lg>
+                    <lg n="4" type="verse">
+                        <l n="13">Some died by the glenside, some died near a stranger</l>
+                        <l n="14">And wise men have told us their cause was a failure</l>
+                        <l n="15">But they fought for old Ireland and never feared danger</l>
+                        <l n="16">Glory O, Glory O, to the bold Fenian men</l>
+
+                    </lg>
+                    <lg n="5" type="verse">
+                        <l n="17">I passed on my way, God be praised that I met her</l>
+                        <l n="18">Be life long or short, sure I'll never forget her</l>
+                        <l n="19">We may have brave men, but we'll never have better</l>
+                        <l n="20">Glory O, Glory O, to the bold Fenian men</l>
+
+                    </lg>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI n="4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Amhrán na bhFiann</title>
+                    <title type="alternative">A Soldier's Song</title>
+                    <title type="alternative">Amhrán Náisiúnta na hÉireann</title>
+                    <title type="alternative">Sinn Féin anthem</title>
+                    <author corresp="102"><name xml:lang='en'>Patrick Henry Pearse</name><name xml:lang='ga'>Pádraig Anraí Mac Piarais</name></author>
+                    <author corresp="105"><name xml:lang='en'>William 'Coinneach' J. Ring</name><name xml:lang='ga'>Liam 'Coinneach' Ó Rinn</name></author>
+                    <author corresp="104"><name xml:lang='en'>Patrick "Paddy" Heeney</name><name xml:lang='ga'>Patrick "Paddy" Heeney </name></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Texte édité dans le cadre d'un devoir par Jean-Luc Mirepoix, master 2 TNAH à
+                        l'Ecole nationale des Chartes</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <recordingStmt>
+                        <recording dur="PT01M44S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Senan Dunne</name>
+                                <name>Darren Byrne</name>
+                                <name>Gloria Chóir</name>
+                            </respStmt>
+                            <media
+                                url="https://www.gov.ie/en/publication/52a628-the-national-anthem/"
+                                mimeType="video/mp4">
+                                <desc>A sign-language version uploaded on the official Irish
+                                    governement website</desc>
+                            </media>
+                            <date when="2018-04">04/2018</date>
+                        </recording>
+                        <recording dur="PT03M10S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Máirtín de Cógáin</name>
+                                <name>Gregory Grene</name>
+                                <name> Brian OhAirt</name>
+                                <name>Alex Grene</name>
+                                <name>Chris Buckley</name>
+                                <name>Joseph Carmichael</name>
+                                <name>Daniel Mehalko</name>
+                            </respStmt>
+                            <media url="https://youtu.be/geeZ7NJnxPk" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded by the Celtic Cultural Center of
+                                    Austin, Texas</desc>
+                            </media>
+                            <date when="2016">2016</date>
+                        </recording>
+                        <recording dur="PT01M56S">
+                            <respStmt>
+                                <resp>Artist</resp>
+                                <name>Pupils from Our Lady of Lourdes NS Bunclody, Co.
+                                    Wexford</name>
+                            </respStmt>
+                            <media url="https://youtu.be/1PzXeTeRyek" mimeType="video/mp4">
+                                <desc>A youtube clip uploaded on the channel of the Our Lady of
+                                    Lourdes School's channel</desc>
+                            </media>
+                            <date when="2015-11-25">25/11/2015</date>
+                        </recording>
+                    </recordingStmt>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <div xml:lang="en">
+                    <p> Amhrán na bhFiann", called "The Soldier's Song" in English, is Ireland's
+                        national anthem. The music was composed by Peadar Kearney and Patrick
+                        Heeney, the original English lyrics by Kearney, and the Irish-language
+                        translation, now usually heard, by Liam Ó Rinn. The song has three verses,
+                        but only the choral refrain is used as the national anthem. The Presidential
+                        Salute, played when the President of Ireland arrives at an official
+                        engagement, consists of the first four bars of the national anthem
+                        immediately followed by the last five. </p>
+                    <p> The song, as "A Soldier's Song", was composed "early in 1910 or late in
+                        1909", with words by Peadar Kearney, and music by his childhood friend and
+                        neighbour Patrick Heeney, who had collaborated on songs since 1903. Kearney
+                        assisted Heeney in setting the refrain. Heeney composed it with his
+                        melodeon. Seán Rogan, later of the Irish Citizen Army, may also have helped
+                        with the music, and first wrote it in musical notation. Kearney wrote much
+                        of the text in the Swiss Café at the corner of O'Connell Street and North
+                        Earl Street. The first draft of the text, handwritten on copybook paper,
+                        sold at auction in Dublin in 2006 for €760,000. After being rejected by The
+                        United Irishman, Bulmer Hobson's magazine Irish Freedom published the text
+                        in 1912. Whelan and Son of Ormond Quay, Dublin, published the lyrics for
+                        sale as a flysheet. It was used as marching song by the Irish Volunteers and
+                        Seamus Hughes first sang it in public at a Volunteer fundraising concert. It
+                        was sung by rebels in the General Post Office (GPO) during the Easter Rising
+                        of 1916. Its popularity increased among rebels held in Frongoch internment
+                        camp after the Rising. The sheet music was first published in late 1916 by
+                        Whelan and Son, in an arrangement by Cathal Mac Dubhghaill (Cecil Grange
+                        MacDowell). In December 1916 in New York City, Victor Herbert published his
+                        own piano and orchestral arrangements under the title "Soldiers of Erin, the
+                        Rallying Song of the Irish Volunteers", on the instigation of R. F.
+                        O'Reilly, an Irish priest. O'Reilly arranged for proceeds to go to the
+                        Gaelic League, but paid royalties to Kearney and Heeney once he discovered
+                        they were the authors. With later cheques from the US, Kearney earned "not
+                        much more than £100". By 1917, according to Séumas Robinson, the song was
+                        being parodied by British soldiers in Ireland. Éamon de Valera's platform at
+                        the June 1917 East Clare by-election featured a large banner with the
+                        opening two lines. That October the Irish Volunteers allied with Sinn Féin
+                        under de Valera and during the Irish War of Independence (1919–21) the
+                        Volunteers evolved into the Irish Republican Army (IRA). The song's
+                        popularity led to its being called the "Sinn Féin anthem". Copies were
+                        confiscated by British security forces as seditious. Carl Hardebeck played
+                        it unannounced on Low Sunday 1918 in St Peter's Cathedral, Belfast. Victor
+                        Herbert's version was well known to Irish Americans by 1919, when de Valera
+                        arrived as President of Dáil Éireann of the self-proclaimed Irish Republic.
+                        In the 1922–23 Civil War, the IRA split into the "National Army" of the
+                        nascent Irish Free State and the "Irregulars" loyal to the defunct Republic.
+                        Both sides continued to sing "The Soldier's Song". After the war, it
+                        remained popular as an Army tune, and was played at many military functions.
+                        Official adoption The Free State did not initially adopt any official state
+                        anthem. The delicate political state in the aftermath of the Civil War
+                        provoked a desire to avoid controversy. Ex-unionists continued to regard
+                        "God Save the King" as the national anthem, as it had been for the rest of
+                        the British Empire. The fact that "The Soldier's Song" described Irishmen
+                        fighting a foreign foe allowed it to overlook the painful memory of the
+                        Civil War. W. T. Cosgrave, 1922–32 President of the Executive Council,
+                        avoided explicitly making it the national anthem for fear of exacerbating
+                        the antipathy for the Free State held by unionists in Northern Ireland. As
+                        with the Irish tricolour, the government did not want to disassociate the
+                        state from the anthem for fear of leaving a potent symbol available for its
+                        republican opponents to claim. "The Soldier's Song" was widely if
+                        unofficially sung by nationalists. Public perception that it was officially
+                        recognised sprang from a concert on 3 February 1924 at the Theatre Royal,
+                        Dublin by the Irish Army music school under its German-born director,
+                        Colonel Fritz Brase. As an encore to the concert, Brasé conducted "Irish
+                        March, no.1", his medley of Irish patriotic airs, which ended with that of
+                        "The Soldier's Song". Most dignitaries present stood up at this point,
+                        including Governor-General Tim Healy, Cosgrave and most of the Executive
+                        Council, although Richard Mulcahy remained seated. On 28 April 1924,
+                        Cosgrave expressed opposition to replacing "The Soldier's Song", which was
+                        provisionally used within the State. Sean Lester, Publicist at the
+                        Department of External Affairs considered "The Soldier's Song" to be "hardly
+                        suitable in words or music" and favoured the music, though not the words, of
+                        "Let Erin Remember". This was used as the anthem for the state at the 1924
+                        Olympics in Paris, and other events abroad for the next two years. The
+                        Dublin Evening Mail held contests in 1924 and 1925 to find verses for a new
+                        anthem; the first produced no sufficiently good entry, and the second's
+                        winning entry was soon forgotten. There was concern that the lack of an
+                        official anthem was giving unionists an opportunity to persist with "God
+                        Save the King". Ewan Morris writes, "While some, perhaps many, nationalists
+                        undoubtedly disliked 'The soldier's song', few would have objected so
+                        strongly as to refuse to honour it as the national anthem. But for
+                        ex-unionists 'The soldier's song' remained anathema, and 'God save the king'
+                        continued to be the national anthem they honoured." By 1926 foreign
+                        diplomats' protocol offices were requesting copies of the anthem's score. On
+                        12 July 1926, the Executive Council decided to adopt it as the National
+                        Anthem, with Cosgrave the driving force in the decision. He wrote to Lester,
+                        "there must be uniformity in regard to the national anthem and that for the
+                        present the 'Soldier’s song' is to be used for this purpose both at home and
+                        abroad". The decision was not publicised. On 20 June 1926, Osmond Esmonde
+                        asked President Cosgrave what the National Anthem was, but the Ceann
+                        Comhairle Michael Hayes ruled 'If the Deputy desires to investigate any
+                        problem in regard to the National Anthem, he cannot ask a question of the
+                        President. The President cannot be asked to define what is the National
+                        Anthem. It is not part of his functions.' Esmonde instead asked Minister for
+                        Defence Peter Hughes what 'as far as the Army is concerned' was the National
+                        Anthem. The draft response provided for Hughes stated that 'while no final
+                        decision has been come to', "The Soldier's Song" was 'at present accepted as
+                        the National Anthem', However, this wording was vetoed by Cosgrave, and in
+                        the Dáil chamber Hughes responded simply 'The "Soldier's Song."' In 1928,
+                        the Army band established the practice of playing only the chorus of the
+                        song as the Anthem, because the longer version was discouraging audiences
+                        from singing along. Also in 1928, Chief Justice Hugh Kennedy, returning from
+                        an official trip to North America, reported that an official arrangement of
+                        the music was "very badly needed" for circulation abroad. This was produced
+                        in July 1929 by Colonel Fritz Brasé, director of the Army band. This
+                        consisted only of the chorus, and was published under the title "The
+                        Soldier's Song" rather than "A Soldier's Song", although variants such as
+                        the "Soldiers' Song" continued to occur in later official documentation.
+                        Copyright The national anthem was played at closedown by Radio Éireann from
+                        its inception in 1926. The Catholic Truth Society of Ireland included it in
+                        a 1929 publication commemorating the centenary of the Roman Catholic Relief
+                        Act 1829. Cinemas and theatres played the anthem when closing from 1932
+                        until 1972. Peadar Kearney, who had received royalties from sheet music
+                        publishers, issued legal proceedings for royalties from those now performing
+                        the anthem. He was joined by Michael Heeney, brother of Patrick Heeney, who
+                        had died in 1911. In 1934, the Department of Finance acquired the copyright
+                        of the song for the sum of £1,200 (£980 to the copyright holders plus £220
+                        expenses). Copyright law changed in the 1950s, such that the government had
+                        to reacquire copyright in 1965, for £2,500. Ruth Sherry states that it is
+                        unclear whether the official anthem is the music alone or the text also;
+                        however, the official 1934 Estimate of the amount required ... for the
+                        acquisition by the state of copyright in the national anthem includes the
+                        line item, 'Payment to the holders of copyright in the words and music of
+                        the "Soldier's Song"' [emphasis added]. While the state held the copyright,
+                        most requests for publication were accepted, "although several of a purely
+                        commercial nature, such as its use in advertisements, were refused". As per
+                        EU copyright law, the English lyrics' copyright expired on 1 January 2013,
+                        following the 70th anniversary of Kearney's death. In 2016, three Fianna
+                        Fáil senators introduced a private member's bill intended to restore the
+                        state's copyright in the anthem. The ending of copyright also encourage the
+                        Seanad to announce a public consultation on the anthem. </p>
+                    <p> The Governor-General of the Irish Free State was the King's representative
+                        and, as such, unionists considered that the appropriate official salute to
+                        play was "God Save The King" rather than the Free State Anthem. At James
+                        McNeill's 1928 inauguration, the Army band played "The Soldier's Song", but
+                        that summer, at two events with unionist organisers, he was greeted by "God
+                        Save The King". The Executive Council advised him that in future the Free
+                        State anthem must be played. McNeill declined a June 1929 invitation to the
+                        Trinity College sports when the college insisted that the British anthem was
+                        its tradition. Unionists and people in Great Britain took this as a snub,
+                        while for republican commentators it encapsulated the Free State's attempts
+                        to suppress the truth about its subservience to Britain. A compromise
+                        adopted in 1931 was that "The Soldier's Song" would mark the Governor
+                        General's arrival and he would leave before the end of the sports, when "God
+                        Save The King" would be played. In 1932, Éamon de Valera became President of
+                        the Executive Council; as part of his campaign to abolish the office of
+                        Governor-General, he forbade the Army band from playing "The Soldier's Song"
+                        in McNeill's presence. The first ceremonial regulations for the Irish
+                        Defence Forces, drawn up in 1926, provided that the official "Presidential
+                        Salute" for the President of the Executive Council would be the first and
+                        last eight bars of the national anthem. The 1937 Constitution renamed the
+                        head of government Taoiseach, and introduced the office of President of
+                        Ireland. The "Presidential Salute" has since 1937 been used for the
+                        President of Ireland, who as head of state takes precedence over the
+                        Taoiseach. The Taoiseach's salute is "Mór Chluana", an old Irish air to
+                        which Osborn Bergin set "Amhrán Dóchais", which in the 1930s was often
+                        suggested as a replacement national anthem. </p>
+                    <p> The Irish translation was written by Liam Ó Rinn (1886–1943), later the
+                        Chief Translator of the Oireachtas, who was involved in the Irish versions
+                        of both the 1922 Constitution and the 1937 Constitution. Although Sherry
+                        says the Irish version was first published in An tÓglach (the magazine of
+                        the Irish Defence Forces) on 3 November 1923, an almost identical text was
+                        printed in the Freeman's Journal on 3 April 1923, under Ó Rinn's pen name
+                        "Coinneach". It may have been written as early as 1917. Ó Rinn's grandson
+                        Nial claims Liam started work on a translation while interned in Frongoch
+                        after the 1916 Rising. Several other translations had been made by 1923,
+                        which Ó Rinn criticised as unreadable. These were in literary Classical
+                        Irish, whereas Ó Rinn favoured the living vernacular spoken in Gaeltacht
+                        areas. On the other hand, Ó Rinn's Irish was a second language which some
+                        native speakers found inelegant. "Rosc Catha na nÓglach", T. F. O'Rahilly's
+                        translation, was used by Conradh na Gaeilge in the early 1920s; in 1924,
+                        Padraig de Burca said it "deserves more favour than it has received". Other
+                        translations included one sung by Claisceadal in University College Galway
+                        in December 1931, and others by Pádraig Mac Cárthaigh, Sean Dubhthaigh,
+                        Seamus Mac Grianna, and Ernest Blythe. From the 1930s, the Gaelic Athletic
+                        Association (GAA) encouraged singing the anthem in Irish at its matches. The
+                        text of the Ó Rinn version was printed in 1933 in An Camán, and in the
+                        programs of GAA matches at Croke Park, where the crowd was led via the
+                        public address system by singers from St Patrick's College of Education and
+                        Conradh na Gaeilge. Also in 1933 Eamonn O'Neill suggested in the Dáil that
+                        schoolchildren should be taught the words in both English and Irish. In 1935
+                        Charles Bewley, Irish envoy to Germany, requested Irish lyrics because "the
+                        English text ... makes a bad impression abroad". Both the English and Irish
+                        texts appeared in various editions of Facts about Ireland, published by the
+                        Department of Foreign Affairs, and on the official website of the Department
+                        of the Taoiseach. However, no Irish version has been officially adopted, the
+                        state does not hold the copyright to any Irish version, and Ó Rinn, unlike
+                        Kearney and Heeney's estate, never received royalties. A memorandum in the
+                        Department of the Taoiseach on 5 April 1958 discussed five distinct Irish
+                        translations, noting that Ó Rinn's was the best known; it suggested that, if
+                        it were to be officially endorsed, the spelling and grammar should be
+                        standardised and the opening words "Sinne Fianna Fáil" changed to "Sinne
+                        laochra Fáil" to avoid association with the Fianna Fáil political party. The
+                        2018 Seanad report on the anthem recommended no change to the wording, and
+                        pointed out that the law would not prevent a new political party adopting
+                        revised words like "Laochra Fáil" as its name. </p>
+                    <p> The English version has been almost totally eclipsed, and many are unaware
+                        that the Irish lyrics are a translation. In 1960 it was remarked that the
+                        anthem's effect at Croke Park was impaired by the fact that some people sang
+                        in English and others in Irish. The Irish Times reported audience
+                        participation at a 1962 concert in the Olympia Theatre, Dublin under the
+                        headline "Sang National Anthem in Irish". In the 21st century the English
+                        version is still sung at home matches of Celtic F.C., a Glasgow Irish-Scots
+                        football club. It was sung in Canada during a state visit by President Mary
+                        McAleese in 1998, and at the 2004 Ryder Cup in the United States. The latter
+                        prompted objections from Fáilte Ireland, and what Gaeltacht Minister Éamon Ó
+                        Cuív called "an outcry" from viewers in Ireland. The 2018 Seanad report
+                        suggested that "For those not familiar with the Irish language, it may be
+                        appropriate to produce a phonetic version of the National Anthem". Some
+                        foreign-born Irish international sportspeople have learned the Irish words
+                        via ad-hoc phonetic versions, including Mick McCarthy of the association
+                        football team and C. J. Stander of the rugby union team. In 1987, the anthem
+                        was recommended, but not required, to be taught as part of the civics
+                        syllabus in national schools. Fianna Fáil's manifesto in the 2007 general
+                        election promised to "nclude the national anthem in the primary school
+                        curriculum". As of 2017 the primary school Social Personal and Health
+                        Education curriculum includes being "aware" of the anthem in third/fourth
+                        class, and "respecting" it in fifth/sixth class. Richard Bruton, the
+                        Minister for Education stated that it was "not Departmental policy to impose
+                        regulations on schools regarding national expression", but that it had
+                        supported several initiatives which included the national anthem. To mark
+                        the 2016 centenary of the Easter Rising, members of the Defence Forces
+                        visited each national school and presented it with a national flag and
+                        copies of the national anthem and the 1916 Proclamation. A 2017 opinion poll
+                        found 82% supported teaching the anthem in school; 40% claimed to know all
+                        the words and 40% "some" of them. The 2018 Seanad report said the anthem was
+                        "indeed currently on the curriculum at primary school level. However, once
+                        it has been taught at primary school level there are little opportunities
+                        for students to use the National Anthem within the school environment". It
+                        said suggestions to sing the anthem at school every day "may not be
+                        possible", but school children could be encouraged to sing it on the eve of
+                        Saint Patrick's Day. Although only the chorus forms the official national
+                        anthem, the music of both verse and chorus has often been played at sports
+                        events outside Ireland. The text of the first verse appears as well as the
+                        chorus in early (1960s) editions of the Department of External Affairs's
+                        book Facts About Ireland. Later editions include only the chorus. The song
+                        is used by many Irish nationalists as an anthem for the entire island of
+                        Ireland. As such it is played at all GAA matches, including those in
+                        Northern Ireland and overseas. The 2018 Seanad report on the anthem
+                        recommended awareness of the anthem among "Irish citizens at home and
+                        abroad, as well as new citizens of Ireland". It was common in the twentieth
+                        century, and not unknown today, for a music session in a pub to end at
+                        closing time with the playing of the national anthem. A 1961 Evening Herald
+                        editorial complained that the anthem was played "far too often" and "usually
+                        in a most undignified manner", and that it "should be limited to very
+                        special occasions". There is no protocol specified for the anthem; the 2018
+                        Seanad report on the anthem recommended adopting one and provided a draft.
+                        The flag protocol issued by the Department of the Taoiseach states that when
+                        the anthem is played in the presence of the national flag, all present
+                        should face the flag and stand to attention, and Defence Forces personnel
+                        should salute the flag, "until the last note of the music". History
+                        professor Caoimhín De Barra comments, "I don't think I have ever seen anyone
+                        salute the flag during Amhrán na bhFiann. Certainly, nobody is standing to
+                        attention until the last note of music, given that we have effectively
+                        replaced the last line of the song with collective freestyle screaming and
+                        roaring." In 2017, the Seanad Public Consultation Committee invited comments
+                        on "the most appropriate way the State should treat the National Anthem".
+                        Its chair, Mark Daly, said, "The debate around this issue includes aspects
+                        of copyright law, cultural tolerance, respect for national symbols, public
+                        opinion, free speech and a range of other factors." The committee heard
+                        public submissions from selected commenters on 5 December 2017. Michael W.
+                        D'Arcy said the government favoured guidelines rather than legislation, and
+                        that penalties for misuse might prove counterproductive. The committee's
+                        report was published in July 2018; it recommended producing an official
+                        translation into Irish Sign Language (ISL). A deaf choir performed an ISL
+                        version of the anthem in Leinster House at the report's official launch. In
+                        January 2019, Fianna Fáil senators introduced a private member's bill "to
+                        confirm that the choral refrain, with or without the lyrics, of 'Amhrán na
+                        bhFiann' or, in the English Language, 'The Soldier's Song' is and continues
+                        to be the National Anthem; to provide for a version of the National Anthem
+                        in the Irish Sign Language; to confirm that the Presidential Salute is and
+                        continues to be the music of the first 4 bars, followed by the last 4 bars,
+                        of the National Anthem". </p>
+                    <p> In the 1933 Dáil debate on the state's acquisition of the song's copyright,
+                        there was discussion of its merits or lack thereof. Frank MacDermot said,
+                        'Leaving out sentiment, I must confess, from both a literary and a musical
+                        point of view, I would regard the "Soldier's Song" as, shall we say, a
+                        jaunty little piece of vulgarity, and I think we could have done a lot
+                        better.' Thomas F. O'Higgins responded, "National Anthems come about, not
+                        because of the suitability of the particular words or notes, but because
+                        they are adopted generally by the nation. That is exactly how the "Soldier's
+                        Song" became a National Anthem in this country. It happened to be the Anthem
+                        on the lips of the people when they came into their own and when the
+                        outsiders evacuated the country and left the insiders here to make the best
+                        or the worst of the country. It was adopted by the people here before ever
+                        it was adopted by the Executive Council". The Irish Independent in 2016
+                        found it "difficult to understand ... how Peadar Kearney, who was ... a
+                        splendid poet, could have written such a lacklustre piece." The Irish
+                        version is a free translation of the English; in particular, "Sinne Fianna
+                        Fáil" is not a literal translation of "Soldiers are we". Fianna Fáil,
+                        variously translated as "Soldiers of Destiny", "Warriors of Fál", "Warriors
+                        of Destiny", "The Irish Army", or "Soldiers of Ireland", Éamon de Valera
+                        regarded the phrase's untranslatability as a virtue. This is from the Irish
+                        Fianna ("band of warriors") of Fál (a coronation stone, and metonymically
+                        "Ireland"). As an Irish name for the Irish Volunteers, it was an alternative
+                        to Óglaigh na hÉireann. The initials "FF" appeared on the Volunteer badge,
+                        and remain on that of Irish Defence Forces as successor to the Volunteers.
+                        On 2 April 1926, "Fianna Fáil" was chosen as the name of Éamon de Valera's
+                        new political party. Ó Rinn's version appeared in a 1927 volume of poetry
+                        with a foreword by de Valera. Since the Irish version of the anthem became
+                        popular in the 1930s, there has been intermittent resentment of the party
+                        name's occurring in it. Publishers Browne and Nolan printed a version in
+                        1938 substituting "Sinne laochra Fáil" for "Sinne Fianna Fáil" (laochra,
+                        "heroes", "warriors"), which is occasionally heard instead. TD Maureen
+                        O'Sullivan likewise favoured changing to "laochra Fáil". In the Dáil in 2011
+                        and 2012, she asked the Minister for Finance Michael Noonan whether "Sinne
+                        Fianna Fáil" was "appropriate and correct" or had "party political
+                        connotations"; Noonan stated it was appropriate and had no such
+                        connotations, given that the translation predated the party's founding. The
+                        2018 Seanad report on the anthem took the same view. Mícheál Ó Súilleabháin
+                        said the Irish lyrics sound worse than the English ones, which rhyme and so
+                        are easier to learn. Ulster unionists regard the anthem as specific to the
+                        Republic of Ireland, not symbolic of the whole island of Ireland, and
+                        deprecate its use with United Ireland symbolism as irredentism. (The
+                        symbolism of flags in Northern Ireland raises similar issues.) In 1933, the
+                        unionist government invoked its Special Powers Act to ban public display of
+                        the tricolour when "representing the Irish Republican Army ... an Irish
+                        Republic ... or... any ... unlawful association"; the order was interpreted
+                        as a ban in all circumstances unless flown explicitly to represent the Free
+                        State. Similar orders specifically banning "The Soldier's Song" were drafted
+                        before the 1935 Westminster and 1938 Stormont elections, but the government
+                        felt they were too controversial to implement; a general order against music
+                        "likely to lead to a breach of the peace" was often invoked when "The
+                        Soldier's Song" was played. After the Northern Ireland peace process, when
+                        unionists and Conservatives began attending GAA matches in their official
+                        capacity, they arrived after the playing of "Amhrán na bhFiann", including
+                        sports minister Edwin Poots in 2008, First Minister Peter Robinson in 2012,
+                        and Northern Ireland Secretary James Brokenshire in 2017. Robinson's
+                        successor Arlene Foster stood for the anthem at the 2018 Ulster Football
+                        Final, which was played in the Republic. F. Gunther Eyck's survey of
+                        national anthems classifies "Amhrán na bhFiann" under "resistance anthems",
+                        alongside "La Marseillaise", "A Portuguesa", and "Poland Is Not Yet Lost".
+                        The lyrics been criticised by some commentators for alleged outdatedness,
+                        militarism, and anti-British sentiment. Others deny such faults or attribute
+                        them to national anthems generally. Kevin Myers described calls for it to be
+                        amended or replaced as "seasonal as spring". Questions in the Dáil have been
+                        asked by Frank MacDermot in 1932; Noel Lemass in 1973; Trevor Sargent in
+                        1993; Derek McDowell in 1995; and John Browne in 2000. Commentators on the
+                        1929 Trinity College incident suggested "The Soldier's Song" would be an
+                        impediment to closer ties between the Free State and Northern Ireland. The
+                        executive of arts body Aosdána rejected a 1989 proposal by Aloys Fleischmann
+                        to campaign for a change of anthem, on the basis that it was a political
+                        rather than an artistic question. In 1995, during the Northern Ireland peace
+                        process, Taoiseach John Bruton suggested at the Forum for Peace and
+                        Reconciliation that the anthem be changed, with Fianna Fáil and Sinn Féin
+                        disagreeing. The Forum drafted an unpublished report on "obstacles to
+                        reconciliation in the Republic"; 1998 newspaper articles summarising the
+                        draft claimed it suggested "the government could commission alternative
+                        anthems for sporting and other non-official occasions" which were not
+                        "excessively militaristic". Fergus Finlay in 2007 suggested "retiring [the
+                        anthem] with honour". A 2017 opinion poll found 84% supported retaining the
+                        anthem, while 10% favoured replacing it. Historian Fearghal McGarry suggests
+                        the fact that the lyrics are no longer sung in English dampens demand for
+                        change: "public unfamiliarity with Peadar Kearney's original words has
+                        almost certainly extended his song's shelf life as the national anthem". In
+                        a debate during the 2011 presidential election, candidates were asked
+                        whether the anthem was "fit for purpose". Most acknowledged strong public
+                        attachment to it. Martin McGuinness and Dana Rosemary Scallon opposed any
+                        change. Mary Davis said people "shouldn’t consider changing it lightly".
+                        Michael D. Higgins suggested the Constitutional Convention could discuss the
+                        matter. Seán Gallagher had "mixed views" and was "open to explore revising
+                        it". David Norris said other anthems were more "blood-thirsty". The 2018
+                        Seanad report on the anthem recommended no change to the wording. </p>
+                    <p> The previous anthem used by Irish nationalists was "God Save Ireland", with
+                        words written by Timothy Daniel Sullivan in 1867 to the tune of "Tramp!
+                        Tramp! Tramp!", an American Civil War song written in 1864 by George
+                        Frederick Root. "God Save Ireland" commemorated the Manchester Martyrs,
+                        executed in 1867 for felony murder for their part in an Irish Republican
+                        Brotherhood ambush, and it quickly replaced the previous unofficial anthem,
+                        "A Nation Once Again", written in 1845 by Thomas Davis of the Young Ireland
+                        movement. "God Save Ireland" was associated with the Irish Parliamentary
+                        Party and its eclipse by "The Soldier's Song" after 1916 mirrored the
+                        party's eclipse by Sinn Féin. The Irish Rugby Football Union (IRFU) and
+                        Ireland national rugby union team are all-island bodies with many unionist
+                        supporters; although "Amhrán na bhFiann" is played at Ireland matches in the
+                        Republic, it is not played elsewhere, and unionist players are not expected
+                        to sing it. During the Troubles, no anthem was played at matches outside
+                        Ireland. In Paris, "The Last Rose of Summer" was played in 1929, and before
+                        the 1931 match the Department of External Affairs advised ambassador Gerald
+                        O'Kelly de Gallagh that, if the organisers refused to allow "The Soldier's
+                        Song", then "appropriate Irish airs would be 'St. Patrick's Day', 'The Last
+                        Rose of Summer' or 'Let Erin Remember'". At the inaugural Rugby World Cup,
+                        captain Donal Lenihan objected that all other teams would have an anthem. At
+                        the last minute before the side's opening match in Athletic Park,
+                        Wellington, a James Last cassette recording of "The Rose of Tralee" was
+                        borrowed from Phil Orr; the music and poor recording quality attracted much
+                        criticism and no anthem was played for later matches. At the 1991 World Cup,
+                        there was no anthem away to Scotland, Ireland's only game outside Dublin.
+                        For the 1995 World Cup in South Africa, the IRFU decided to commission a
+                        song from Phil Coulter. His composition, "Ireland's Call", has since been
+                        played alongside "Amhrán na bhFiann" at matches within the Republic, and on
+                        its own elsewhere, including in Northern Ireland. Other all-island teams
+                        have adopted "Ireland's Call" for similar reasons to the IRFU's. The men's
+                        and women's hockey teams adopted it in 2000, having previously used the
+                        "Londonderry Air"; however, a first-ever Olympic qualification saw the
+                        Olympic Council of Ireland standard "Amhrán na bhFiann" used at Rio 2016.
+                        Some sports use no anthem, including badminton and bowls. Criticism that
+                        "Ireland's Call" was uninspiring prompted The Irish Times to commission a
+                        jocular "alternanthem" from The Duckworth Lewis Method for Saint Patrick's
+                        Day 2010. A recording of "O'Donnell Abú" was played for the Irish
+                        showjumping team at a 1937 competition in Paris; ambassador Art O'Brien
+                        threatened a diplomatic incident since the other teams' anthems had been
+                        played by a military band. The organisers had been unable to locate a copy
+                        of the score, and the Irish embassy had only a piano arrangement. The same
+                        air was chosen by the women's hockey team for a 1951 away match against the
+                        Netherlands. "The Fields of Athenry" was adopted as a terrace chant by Irish
+                        fans at the 1990 FIFA World Cup and later by fans of the rugby team. It has
+                        been described as a "de facto national sporting anthem" and "unofficial
+                        national anthem". Music The air is of a style comparable with British
+                        marches and songs of the era. Colm Ó Lochlainn said, "The tune is not Irish;
+                        it sounds to me something between a Sousa march and a German regimental
+                        song". It is usually sung or played in march time. Different tempos may be
+                        used, however, and the verse and chorus are occasionally played. In 1926 the
+                        radio orchestra of 2RN was found too small for an adequate rendition, so a
+                        recording by the New York "Fighting Irish" 69th Infantry was soon adopted,
+                        prompting complaints that it was too jazz-influenced. A 1961 Evening Herald
+                        editorial complained that the anthem was "usually played without any
+                        arrangement and often at a tempo more suggestive of a jig tune than an
+                        anthem". Fritz Brase's 1930 arrangement was replaced for Defence Forces
+                        bands in the 1980s by one by Colonel James R. McGee which simplified the
+                        high woodwind parts. Raidió Teilifís Éireann (RTÉ), the Irish national
+                        broadcasting company, played an orchestral version in a slow tempo at the
+                        close of transmission from 1962 onwards. This was produced by Gerard Victory
+                        and arranged by Brian Boydell (who disliked the tune) on the advice of a
+                        Canadian consultant who said, "I wan’ it BIG! I envisage the kind of music
+                        that will stir the hearts of the Irish people". Boydell's version replaced
+                        one by John Francis Larchet introduced in 1954. A special arrangement
+                        incorporating traditional Irish instruments was played instead during Easter
+                        Week 1966, to mark the 50th anniversary of the Easter Rising. There was
+                        negative comment at the lively tempo used in the ceremony for Michelle
+                        Smith's gold medals at the 1996 Olympics. </p>
+                </div>
+                <div xml:lang="ga">
+                    <p>Is é Amhrán na bhFiann (Béarla: The Soldiers' Song) amhrán náisiúnta na
+                        hÉireann. Scríobh Peadar Ó Cearnaigh na liricí, agus chum Patrick Heaney an
+                        port. Ba i mBéarla a scríobhadh na liricí ar dtús, ach is é an leagan
+                        Gaeilge is gnách a chloisteáil inniu. Ní chantar ach an curfá de ghnáth agus
+                        is ar éigean go bhfuil an chuid eile den amhrán ar eolas ag duine ar bith.
+                        Tá blas láidir Ghaeilge na Mumhan ar na líricí, agus is minic nach féidir an
+                        fonn a choinneáil ach an t-amhrán a chanadh sa chanúint seo. Mar shampla,
+                        nuair a chantar ar ardaibh sléibhe, is gá an -bh- san fhocal sléibhe a bhá
+                        go hiomlán, mar a dhéantar leis an -bh-/-mh- i nGaeilge na Mumhan ar lorg an
+                        ghuta fhada. Nóta tráchta: duan: dán Óglách: Is athfhoirm fhileata den
+                        fhocal Óglach é Óglách. Úsáidtear an fhoirm sin anseo ar dhá chúis: 1) ní
+                        mór -á- fada a bheith ann le rím a choinneáil leis an bhfocal táid, agus 2)
+                        ní mór an bhéim a chur ar an dara siolla, ar mhaithe leis an meadracht.
+                        tíocht in áit "teacht", leis an rím a choinneáil le sinn canaídh: is mar
+                        "canaig" nó "canaíg" a fhuaimnítear é, mar is gnách i gCúige Mumhan fé:
+                        fuaimniú Muimhneach an réamhfhocail úd faoi do ráinig: is minic a chantar a
+                        tháinig anseo inniu, nó is iomaí Gaeilgeoir nach dtuigeann an focal
+                        "ráinig". Briathar uireasach é "ráinig" (nó "do ráinig" i gCúige Mumhan) a
+                        chiallaíonn "shroich" nó "tharla", agus is ar éigean a úsáidtear in aon
+                        fhoirm eile é seachas aimsir chaite. Cuid de sheanchaint na Mumhan is ea an
+                        briathar "ráinig", agus d'fheicfeá sa litríocht Bhlascaodach é. Uaireanta,
+                        caitear leis mar a bheadh "ráinigh" ann (ós rud é gurb ionann "ráinig" agus
+                        "ráinigh" san fhuaimniú), agus cruthaítear foirmeacha cosúil le "ráineoinn"
+                        (a chiallaíonn "shroichfinn"). a théam: "téimis" an chiall atá leis an
+                        bhfoirm sa choimhthéacs seo, ar ndóigh. An fhoirm a úsáidtear anseo, áfach,
+                        is é modh foshuiteach na haimsire láithrí é. Sa mhodh seo, úsáidtear tamhan
+                        na haimsire láithrí, ach tagann na hiarmhíreanna ón aimsir fháistineach, ach
+                        amháin go bhfágtar -f-, -ó-, nó -eo- na haimsire fáistiní ar lár. An iarmhír
+                        sin -am, níl sí beo inniu ach i nGaeilge na Mumhan, cf. ragham (Gaeilge na
+                        Mumhan) in áit rachaidh muid nó rachaimid an Chaighdeáin. fé lámhach na
+                        bpiléar: cuir an bhéim ar an -é- san fhocal piléar. buadhach: is minic a
+                        fheictear "buachach" anseo i gcóipeanna doiléire nó mílitrithe den téacs,
+                        ach is léir gur buadhach, leagan seanlitrithe den aidiacht buach atá ann.
+                        iompáil: leagan Muimhneach den iompú (nó iompó, mar a déarfadh an tUltach).
+                        Tháinig "iompáil" díreach ón gcanúint a chleacht Peadar Ua Laoghaire ina
+                        úrscéal Séadna. námhad: caithfidh tú an -mh- a bhá go hiomlán ar lorg an -a-
+                        fhada,. mar a dhéantar i gcanúint na Mumhan: i gcoinne ná'd. bíobha: namhaid
+                        agaibh: béim ar an dara siolla, mar a dhéantar i gCúige Mumhan </p>
+                </div>
+            </front>
+            <body>
+                <div type="song" xml:lang="ga">
+                    <lg n="1" type="verse">
+                        <l n="1">Seo dhíbh, a chairde, duan Ógláigh</l>
+                        <l n="2">Caithréimeach bríomhar ceolmhar</l>
+                        <l n="3">Ár dtinte cnámh go buacach táid</l>
+                        <l n="4">'S an spéir go mín réaltógach</l>
+                        <l n="5">Is fonnmhar faobhrach sinn chun gleo</l>
+                        <l n="6">'S go tiúnmhar glé roimh thíocht don ló</l>
+                        <l n="7">Fé chiúnas chaomh na hoíche ar seol</l>
+                        <l n="8">Seo libh, canaídh Amhrán na bhFiann.</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="9">Sinne Fianna Fáil,</l>
+                        <l n="10">atá faoi gheall ag Éirinn,</l>
+                        <l n="11">Buíon dár slua</l>
+                        <l n="12">thar toinn do ráinig chugainn,</l>
+                        <l n="13">Faoi mhóid bheith saor</l>
+                        <l n="14">Seantír ár sinsear feasta,</l>
+                        <l n="15">Ní fhágfar faoin tíorán ná faoin tráill.</l>
+                        <l n="16">Anocht a théam sa bhearna bhaoil,</l>
+                        <l n="17">Le gean ar Ghaeil, chun báis nó saoil,</l>
+                        <l n="18">Le gunna-scréach faoi lámhach na bpiléar,</l>
+                        <l n="19">Seo libh canaig' amhrán na bhFiann. </l>
+                    </lg>
+                    <lg n="2" type="verse">
+                        <l n="20">Cois bánta réidhe, ar ardaibh sléibhe</l>
+                        <l n="21">Ba bhuadhach ár sinsir romhainn</l>
+                        <l n="22">Ag lámhach go tréan fén sárbhrat séin</l>
+                        <l n="23">'Tá thuas sa ghaoth go seolta</l>
+                        <l n="24">Ba dhúchas riamh dár gcine cháidh</l>
+                        <l n="25">Gan iompáil siar ó imirt áir</l>
+                        <l n="26">'S ag siúl mar iad i gcoinne námhad</l>
+                        <l n="27">Seo libh, canaídh Amhrán na bhFiann</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="28">Sinne Fianna Fáil,</l>
+                        <l n="29">atá faoi gheall ag Éirinn,</l>
+                        <l n="30">Buíon dár slua</l>
+                        <l n="31">thar toinn do ráinig chugainn,</l>
+                        <l n="32">Faoi mhóid bheith saor</l>
+                        <l n="33">Seantír ár sinsear feasta,</l>
+                        <l n="34">Ní fhágfar faoin tíorán ná faoin tráill.</l>
+                        <l n="35">Anocht a théam sa bhearna bhaoil,</l>
+                        <l n="36">Le gean ar Ghaeil, chun báis nó saoil,</l>
+                        <l n="37">Le gunna-scréach faoi lámhach na bpiléar,</l>
+                        <l n="38">Seo libh canaig' amhrán na bhFiann. </l>
+                    </lg>
+                    <lg n="3" type="verse">
+                        <l n="39">A bhuíon nach fann d'fhuil Ghaeil is Gall</l>
+                        <l n="40">Sin breacadh lae na saoirse</l>
+                        <l n="41">Tá sceimhle 's scanradh i gcroíthe námhad</l>
+                        <l n="42">Roimh ranna laochra ár dtíre</l>
+                        <l n="43">Ár dtinte is tréith gan spréach anois</l>
+                        <l n="44">Sin luisne ghlé sa spéir anoir</l>
+                        <l n="45">'S an bíobha i raon na bpiléar agaibh</l>
+                        <l n="46">Seo libh, canaídh Amhrán na bhFiann</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="47">Sinne Fianna Fáil,</l>
+                        <l n="48">atá faoi gheall ag Éirinn,</l>
+                        <l n="49">Buíon dár slua</l>
+                        <l n="50">thar toinn do ráinig chugainn,</l>
+                        <l n="51">Faoi mhóid bheith saor</l>
+                        <l n="52">Seantír ár sinsear feasta,</l>
+                        <l n="53">Ní fhágfar faoin tíorán ná faoin tráill.</l>
+                        <l n="54">Anocht a théam sa bhearna bhaoil,</l>
+                        <l n="55">Le gean ar Ghaeil, chun báis nó saoil,</l>
+                        <l n="56">Le gunna-scréach faoi lámhach na bpiléar,</l>
+                        <l n="57">Seo libh canaig' amhrán na bhFiann. </l>
+                    </lg>
+                </div>
+                <div type="song" xml:lang="en">
+                    <lg n="1" type="verse">
+                        <l n="1">We'll sing a song, a soldier's song</l>
+                        <l n="2">With cheering, rousing chorus</l>
+                        <l n="3">As round our blazing fires we throng</l>
+                        <l n="4">The starry heavens o'er us</l>
+                        <l n="5">Impatient for the coming fight</l>
+                        <l n="6">And as we wait the morning's light</l>
+                        <l n="7">Here in the silence of the night</l>
+                        <l n="8">We'll chant a soldier's song</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="9">Soldiers are we,</l>
+                        <l n="10">whose lives are pledged to Ireland,</l>
+                        <l n="11">Some have come</l>
+                        <l n="12">from a land beyond the wave,</l>
+                        <l n="13">Sworn to be free,</l>
+                        <l n="14">no more our ancient sireland,</l>
+                        <l n="15">Shall shelter the despot or the slave.</l>
+                        <l n="16">Tonight we man the "bearna bhaoil",</l>
+                        <l n="17">In Erin's cause, come woe or weal,</l>
+                        <l n="18">'Mid cannons' roar and rifles' peal,</l>
+                        <l n="19">We'll chant a soldier's song. </l>
+                    </lg>
+                    <lg n="2" type="verse">
+                        <l n="20">In valley green, or towering crag</l>
+                        <l n="21">Our fathers fought before us</l>
+                        <l n="22">And conquered 'neath the same old flag</l>
+                        <l n="23">That's proudly floating o'er us</l>
+                        <l n="24">We're children of a fighting race</l>
+                        <l n="25">That never yet has known disgrace</l>
+                        <l n="26">And as we march, the foe to face</l>
+                        <l n="27">We'll chant a soldier's song</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="28">Soldiers are we,</l>
+                        <l n="29">whose lives are pledged to Ireland,</l>
+                        <l n="30">Some have come</l>
+                        <l n="31">from a land beyond the wave,</l>
+                        <l n="32">Sworn to be free,</l>
+                        <l n="33">no more our ancient sireland,</l>
+                        <l n="34">Shall shelter the despot or the slave.</l>
+                        <l n="35">Tonight we man the "bearna bhaoil",</l>
+                        <l n="36">In Erin's cause, come woe or weal,</l>
+                        <l n="37">'Mid cannons' roar and rifles' peal,</l>
+                        <l n="38">We'll chant a soldier's song. </l>
+                    </lg>
+                    <lg n="3" type="verse">
+                        <l n="39">Sons of the Gael! Men of the Pale!</l>
+                        <l n="40">The long-watched day is breaking</l>
+                        <l n="41">The serried ranks of Innisfail</l>
+                        <l n="42">Shall set the tyrant quaking</l>
+                        <l n="43">Our camp fires now are burning low</l>
+                        <l n="44">See in the east a silv'ry glow</l>
+                        <l n="45">Out yonder waits the Saxon foe</l>
+                        <l n="46">So chant a soldier's song</l>
+                    </lg>
+                    <lg n="Chorus" type="refrain">
+                        <l n="47">Soldiers are we,</l>
+                        <l n="48">whose lives are pledged to Ireland,</l>
+                        <l n="49">Some have come</l>
+                        <l n="50">from a land beyond the wave,</l>
+                        <l n="51">Sworn to be free,</l>
+                        <l n="52">no more our ancient sireland,</l>
+                        <l n="53">Shall shelter the despot or the slave.</l>
+                        <l n="54">Tonight we man the "bearna bhaoil",</l>
+                        <l n="55">In Erin's cause, come woe or weal,</l>
+                        <l n="56">'Mid cannons' roar and rifles' peal,</l>
+                        <l n="57">We'll chant a soldier's song. </l>
+                    </lg>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
