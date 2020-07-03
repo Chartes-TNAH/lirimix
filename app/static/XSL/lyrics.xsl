@@ -12,11 +12,13 @@
                 </h2>
                 <div>
                     <h4>Alternative Title(s)/Ainm mhalartach :</h4>
+                    <ul>
                     <xsl:for-each select="teiHeader/fileDesc/titleStmt/title[@type = 'alternative']">
                         <li>
                             <xsl:value-of select="./text()"/>
                         </li>
                     </xsl:for-each>
+                    </ul>
                 </div>
                 <br/>
                 
@@ -37,27 +39,13 @@
                 <div>
                     <h3>History</h3>
                     <div>
-                        <span>
-                            <p>
-                                <xsl:for-each select="text/front/div[@xml:lang = 'en']/p">
-                                    <xsl:apply-templates select="text()"/>
-                                    <br/>
-                                </xsl:for-each>
-                            </p>
-                        </span>
+                        <xsl:apply-templates select="text/front/div[@xml:lang = 'en']/p" />
                     </div>
                 </div>
                 <div>
                     <h3>Scéal</h3>
                     <div>
-                        <span>
-                            <p>
-                                <xsl:for-each select="text/front/div[@xml:lang = 'ga']/p">
-                                    <xsl:apply-templates select="text()"/>
-                                    <br/>
-                                </xsl:for-each>
-                            </p>
-                        </span>
+                        <xsl:apply-templates select="text/front/div[@xml:lang = 'ga']/p" />
                     </div>
                 </div>
  <br/>
@@ -65,12 +53,7 @@
                 <div>
                     <h3>Lyrics/Lirici</h3>
                     <div>
-                        <p>
-                            <xsl:for-each select="text//div/lg/l">
-                                <xsl:apply-templates select="text()"/>
-                                <br/>
-                            </xsl:for-each>
-                        </p>
+                        <xsl:apply-templates select=".//div/lg" />
                     </div>
                 </div>
                 <h3>Performances/Léiriú</h3>
@@ -105,6 +88,17 @@
 
 
 
+    </xsl:template>
+    <xsl:template match="p">
+        <p><xsl:apply-templates /></p>
+    </xsl:template>
+    <xsl:template match="l">
+        <li><xsl:apply-templates /></li>
+    </xsl:template>
+    <xsl:template match="lg">
+        <ul style="list-style-type: none;">
+            <xsl:apply-templates />
+        </ul>
     </xsl:template>
 
 </xsl:stylesheet>

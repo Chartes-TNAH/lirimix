@@ -3,8 +3,11 @@
 	<div>
 		<h2>Authors Index</h2>
 		<div>
-			<!-- "safe mod" is required-->
-			{{template_flask1|safe}}
+            <ul>
+                {% for author_id, name in authors.items() %}
+                    <li><a href="{{ url_for("author", idf=author_id) }}">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
 		</div>
 	</div>
 {% endblock %}
