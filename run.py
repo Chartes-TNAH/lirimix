@@ -1,5 +1,5 @@
 """file lauching Lirimix"""
-from app.app import app
+from app.routes import app
  
 
 """
